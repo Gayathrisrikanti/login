@@ -1,0 +1,39 @@
+<!-- Home/Landing Page -->
+    <div id="background">
+      <div class="wrapper">
+        <table>
+          <tr>
+            <td class="main_title">
+              <div class="css-typing">
+                <p>Survey List</p>
+              </div>
+            </td>
+            <td class="pic" rowspan="2">
+              <!-- Picture section -->
+              <div id="pic_div">
+                <img src="assets/images/main_pic.png" id="main_img">
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="sub_title">
+              <h3>Process</h3>
+              <ul>
+                <li>Step 1 Go to Survey </li>
+                <li>Step 2 Fill up Survey</li>
+                <li>Step 3  Hurray! Get Results </li>
+              </ul>
+              <a id="heroBtn" routerLink="/surveys" class="btn btn-primary justify-content-center" id="heroBtn">
+                Create Survey
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+<div id="background2">
+  <!-- Active Surveys -->
+  <app-survey-list></app-survey-list>
+</div>
